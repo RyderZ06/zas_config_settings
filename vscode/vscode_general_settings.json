@@ -35,6 +35,29 @@
     "window.commandCenter": false,                       // Скрыть панель команд вверху (File/Edit/View)
     "workbench.startupEditor": "none",                   // При запуске — пустое окно (не стартовые файлы)
     "window.zoomLevel": 0,                               // Масштаб окна 100% (0 = стандарт)
-    "editor.fontSize": 15                               // Размер шрифта
+    "editor.fontSize": 15,                              // Размер шрифта
+    "git.confirmSync": false,
+
+    // === MARKDOWN / README.md ===
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": true,
+        "editor.formatOnSave": true
+    },
+    "markdown.preview.fontSize": 14,
+    "markdown.preview.lineHeight": 1.6,
+    "markdown.preview.markEditorSelectionInfo": true,
+    
+    // === LaTeX ===
+    "[latex]": {
+        "editor.wordWrap": "word",
+        "editor.formatOnSave": true
+    },
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex → bibtex → pdflatex x2",
+            "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+        }
+    ]
   
 }
