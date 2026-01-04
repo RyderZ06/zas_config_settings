@@ -1,0 +1,16 @@
+{
+    // === ОС-АДАПТИВНЫЕ ПУТИ (Linux/Windows автоматически) ===
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+
+    // === JUPYTER (data science) ===
+    "jupyter.interactiveWindowMode": "perFile",
+    "notebook.output.textLineLimit": 5000,
+
+    // === ТЕРМИНАЛ ПО ОС ===
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
