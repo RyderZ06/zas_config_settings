@@ -6,6 +6,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-IDLE%20&%20Data%20Analysis-orange?logo=jupyter&logoColor=white)  
 ![Linux](https://img.shields.io/badge/linux-Computer%20OS-blue?logo=linux&logoColor=white)  
 ![Git](https://img.shields.io/badge/git-control%20version-007ACC?logo=git&logoColor=white)  
+![VSCode](https://img.shields.io/badge/VSCode-IDE%20settings-007ACC?logo=vscode&logoColor=white)  
 
 ## Описание
 Папка `config_settings/` является местом хранения файлов и папок с вариантами кастомных настроек, которые упрощают мою работу с документами и программами. 
