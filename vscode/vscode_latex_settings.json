@@ -1,0 +1,25 @@
+{
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": ["xelatex"]
+        }
+    ],
+    "latex-workshop.latex.recipe.default": "xelatex",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Default Dark+",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
+}

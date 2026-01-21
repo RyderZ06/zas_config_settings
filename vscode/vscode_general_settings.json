@@ -19,7 +19,7 @@
 
     // === Редактор ===
     "editor.minimap.enabled": false,                     // Мини-карта справа (отключает — больше места для кода)
-    "workbench.colorTheme": "Monokai",                   // Тёмная тема Monokai (классика для Python)
+    "workbench.colorTheme": "Default Dark+",                   // Тёмная тема Monokai (классика для Python)
     
     // === ТЕРМИНАЛ (везде) ===
     "terminal.integrated.cursorStyle": "line",           // Курсор в терминале — вертикальная черта
@@ -48,16 +48,6 @@
     "markdown.preview.lineHeight": 1.6,
     "markdown.preview.markEditorSelectionInfo": true,
     
-    // === LaTeX ===
-    "[latex]": {
-        "editor.wordWrap": "word",
-        "editor.formatOnSave": true
-    },
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "pdflatex → bibtex → pdflatex x2",
-            "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
-        }
-    ]
+    
   
 }
