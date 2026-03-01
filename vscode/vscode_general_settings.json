@@ -12,15 +12,20 @@
     "breadcrumbs.enabled": false,                        // Отключает хлебные крошки (путь наверху редактора)
 
     // === Автообновления (ВСЁ ОТКЛЮЧЕНО) ===
-    "extensions.autoCheckUpdates": false,                // Не проверять обновления расширений автоматически
-    "extensions.autoUpdate": false,                      // Не обновлять расширения автоматически
+    "extensions.autoCheckUpdates": true,                // Не проверять обновления расширений автоматически
+    "extensions.autoUpdate": true,                      // Не обновлять расширения автоматически
     "update.showReleaseNotes": false,                    // Не показывать заметки к релизам
-    "update.mode": "none",                              // ПОЛНОЕ отключение обновлений VS Code
+    "update.mode": "default",                              // ПОЛНОЕ отключение обновлений VS Code
 
     // === Редактор ===
     "editor.minimap.enabled": false,                     // Мини-карта справа (отключает — больше места для кода)
-    "workbench.colorTheme": "Default Dark+",                   // Тёмная тема Monokai (классика для Python)
-    
+    "workbench.colorTheme": "GitHub Dark Default", // Тёмная тема Monokai (классика для Python)
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 16,
+
     // === ТЕРМИНАЛ (везде) ===
     "terminal.integrated.cursorStyle": "line",           // Курсор в терминале — вертикальная черта
     "terminal.integrated.cursorBlinking": true,          // Курсор в терминале мигает
@@ -33,21 +38,28 @@
     
     // === Интерфейс ===
     "window.commandCenter": false,                       // Скрыть панель команд вверху (File/Edit/View)
+    "workbench.statusBar.visible": false,
     "workbench.startupEditor": "none",                   // При запуске — пустое окно (не стартовые файлы)
     "window.zoomLevel": 0,                               // Масштаб окна 100% (0 = стандарт)
-    "editor.fontSize": 15,                              // Размер шрифта
+    "editor.fontSize": 15,                               // Размер шрифта
     "git.confirmSync": false,
 
     // === MARKDOWN / README.md ===
     "[markdown]": {
         "editor.wordWrap": "on",
-        "editor.quickSuggestions": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
         "editor.formatOnSave": true
     },
     "markdown.preview.fontSize": 14,
     "markdown.preview.lineHeight": 1.6,
     "markdown.preview.markEditorSelectionInfo": true,
     
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
     
   
 }
