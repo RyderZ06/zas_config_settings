@@ -12,19 +12,20 @@
     "breadcrumbs.enabled": false,                        // Отключает хлебные крошки (путь наверху редактора)
 
     // === Автообновления (ВСЁ ОТКЛЮЧЕНО) ===
-    "extensions.autoCheckUpdates": true,                // Не проверять обновления расширений автоматически
-    "extensions.autoUpdate": true,                      // Не обновлять расширения автоматически
+    "extensions.autoCheckUpdates": false,                // Не проверять обновления расширений автоматически
+    "extensions.autoUpdate": false,                      // Не обновлять расширения автоматически
     "update.showReleaseNotes": false,                    // Не показывать заметки к релизам
-    "update.mode": "default",                              // ПОЛНОЕ отключение обновлений VS Code
+    "update.mode": "none",                              // ПОЛНОЕ отключение обновлений VS Code
 
     // === Редактор ===
     "editor.minimap.enabled": false,                     // Мини-карта справа (отключает — больше места для кода)
-    "workbench.colorTheme": "GitHub Dark Default", // Тёмная тема Monokai (классика для Python)
+    "workbench.colorTheme": "Kanagawa Wave", // Тёмная тема Monokai (классика для Python)
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.hidesExplorerArrows": true,
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.tree.indent": 16,
+    "editor.rulers": [88],
 
     // === ТЕРМИНАЛ (везде) ===
     "terminal.integrated.cursorStyle": "line",           // Курсор в терминале — вертикальная черта
@@ -43,6 +44,7 @@
     "window.zoomLevel": 0,                               // Масштаб окна 100% (0 = стандарт)
     "editor.fontSize": 15,                               // Размер шрифта
     "git.confirmSync": false,
+    "editor.lineNumbers": "relative",                    // отсчет строчки относительно текущего курсора
 
     // === MARKDOWN / README.md ===
     "[markdown]": {
@@ -59,7 +61,6 @@
     "markdown.preview.markEditorSelectionInfo": true,
     
     "git.enableSmartCommit": true,
-    "explorer.confirmDelete": false,
-    
-  
+    "explorer.confirmDelete": false
+
 }
